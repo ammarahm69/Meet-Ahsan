@@ -1,38 +1,149 @@
-.App {
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #202c33;
+}
+.icon-box {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+}
+.media-links {
+  width: 180px;
+  height: 30px;
+}
+/* Media Query For Header */
+@media screen and (max-width: 556px) {
+  .header {
+    position: relative;
+    height: 100px;
+  }
+  .header-icons {
+    position: absolute;
+    top: 3rem;
+  }
+  .mail {
+    margin-left: 8rem;
+  }
+  .media-links {
+    position: absolute;
+    left: 114px;
+  }
+  .text-font {
+    font-size: 12px;
+  }
+}
+/* Navbar */
+.logo {
+  position: relative;
+  top: 10px;
+  height: 150px;
+  width: 100%;
+}
+.active {
+  color: #34a853 !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+.nav-links {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+/* Media Query For Navbar */
+
+.register-btn {
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  border: none !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  background-color: #e94235 !important;
+}
+.btn-icon {
+  position: absolute;
+  top: 3rem;
+}
+
+/* Home */
+.bg-home {
+  background-color: #f5f5f5;
+}
+.span-head {
+  color: #e94235;
+}
+.head-text {
+  font-size: 19px;
+  line-height: 36px;
+  width: 100%;
+  text-align: center;
+  color: #444444 !important;
+}
+.box-text {
+  font-size: 18px;
+  line-height: 21.6px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-height {
+  height: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-text {
+  color: #444444;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.media-box {
+  color: #e8e8e8;
 }
-
-.App-link {
-  color: #61dafb;
+.courses-bg {
+  background-color: #f5f5f5;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.join-text {
+  color: #444444;
+}
+.box-online {
+  color: #0193de;
+}
+.box-mon {
+  color: #faa515;
+}
+.box-hours {
+  color: #03a941;
+}
+.box-week {
+  color: #ff0000;
+}
+.-ms-5 {
+  margin-inline-start: -1.25rem !important;
+}
+.btn {
+  background-color: transparent !important;
+  color: black !important;
+  border: 1px solid black !important;
+  margin-right: 19px !important;
+}
+.w-96 {
+  width: 27rem !important;
+}
+.course-box {
+  width: 106.5% !important;
+}
+.box-width {
+  width: 32.4%;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.system-ltd {
+  width: 20%;
+  height: 67px;
+  border: 10px solid #f7f7f7;
+}
+.main-bg {
+  background-color: #202c33 !important;
+}
+ul > li > a {
+  text-decoration: none;
+  color: #f5f5f5;
 }
